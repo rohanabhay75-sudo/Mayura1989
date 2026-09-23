@@ -68,6 +68,7 @@ export default function Reservation() {
           /* Form */
           <form
             onSubmit={handleSubmit}
+            suppressHydrationWarning
             className="glass rounded-2xl p-8 sm:p-10 reveal"
           >
             <div className="grid sm:grid-cols-2 gap-5">
@@ -83,6 +84,7 @@ export default function Reservation() {
                   required
                   value={formData.name}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                   placeholder="Your name"
                 />
@@ -100,6 +102,7 @@ export default function Reservation() {
                   required
                   value={formData.phone}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                   placeholder="+91"
                 />
@@ -116,6 +119,7 @@ export default function Reservation() {
                   type="email"
                   value={formData.email}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                   placeholder="you@email.com"
                 />
@@ -133,6 +137,7 @@ export default function Reservation() {
                   required
                   value={formData.date}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                 />
               </div>
@@ -149,6 +154,7 @@ export default function Reservation() {
                   required
                   value={formData.time}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                 />
               </div>
@@ -164,6 +170,7 @@ export default function Reservation() {
                   required
                   value={formData.guests}
                   onChange={handleChange}
+                  suppressHydrationWarning
                   className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
                 >
                   {[1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20].map((n) => (
@@ -186,6 +193,7 @@ export default function Reservation() {
                 rows={3}
                 value={formData.request}
                 onChange={handleChange}
+                suppressHydrationWarning
                 className="w-full px-4 py-3 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm resize-none"
                 placeholder="Birthday celebration, dietary requirements, seating preference..."
               />
@@ -193,7 +201,7 @@ export default function Reservation() {
 
             {/* Submit */}
             <div className="flex flex-wrap items-center gap-4 mt-8">
-              <button type="submit" className="btn-gold flex-1 sm:flex-none text-center">
+              <button type="submit" suppressHydrationWarning className="btn-gold flex-1 sm:flex-none text-center">
                 Book Table
               </button>
               <a

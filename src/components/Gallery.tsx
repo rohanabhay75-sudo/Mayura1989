@@ -43,6 +43,7 @@ export default function Gallery() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
+              suppressHydrationWarning
               className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === cat
                   ? "bg-gold-500 text-charcoal-950"

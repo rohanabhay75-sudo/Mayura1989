@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000"),
   title: "MAYURA 1989 Bar & Kitchen | Andhra • Biryani • Rooftop Dining | Rajajinagar, Bengaluru",
   description:
     "MAYURA 1989 Bar & Kitchen in Rajajinagar, Bengaluru — Authentic Andhra cuisine, signature biryani, North Indian & Chinese favourites in a premium rooftop setting. ★ 4.0/5 rated. Dine-in, takeaway & delivery. Open until 11:30 PM.",
@@ -106,7 +107,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
         <meta name="theme-color" content="#0d0d0d" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -116,7 +117,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased" suppressHydrationWarning>{children}</body>
     </html>
   );
 }

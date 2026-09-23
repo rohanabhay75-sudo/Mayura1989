@@ -60,6 +60,7 @@ export default function MenuSection() {
               placeholder="Search dishes..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              suppressHydrationWarning
               className="w-full pl-11 pr-4 py-3.5 bg-charcoal-800/60 border border-charcoal-700 rounded-xl text-cream placeholder-charcoal-500 focus:border-gold-500 focus:ring-1 focus:ring-gold-500/30 outline-none transition-all text-sm"
             />
           </div>
@@ -71,6 +72,7 @@ export default function MenuSection() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
+              suppressHydrationWarning
               className={`whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 shrink-0 ${
                 activeCategory === cat
                   ? "bg-gold-500 text-charcoal-950"
