@@ -1,7 +1,25 @@
 "use client";
 
 import Link from "next/link";
-import { Instagram, Facebook, MapPin, Phone } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
+
+function InstagramIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+    </svg>
+  );
+}
+
+function FacebookIcon({ size = 18 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+    </svg>
+  );
+}
 
 function YoutubeIcon({ size = 18 }: { size?: number }) {
   return (
@@ -35,7 +53,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full glass-light flex items-center justify-center text-charcoal-400 hover:text-gold-400 hover:border-gold-500/30 transition-all"
                 aria-label="Instagram"
               >
-                <Instagram size={18} />
+                <InstagramIcon size={18} />
               </a>
               <a
                 href={siteInfo.social.facebook}
@@ -44,7 +62,7 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full glass-light flex items-center justify-center text-charcoal-400 hover:text-gold-400 hover:border-gold-500/30 transition-all"
                 aria-label="Facebook"
               >
-                <Facebook size={18} />
+                <FacebookIcon size={18} />
               </a>
               <a
                 href={siteInfo.social.youtube}
