@@ -36,11 +36,11 @@ export const siteInfo = {
     youtube: "#",
   },
   delivery: {
-    zomato: "https://www.zomato.com/bangalore/mayura-1989-bar-kitchen-rajajinagar/order",
+    zomato: "https://www.zomato.com/bangalore/mayura-1989-rajajinagar-bangalore/order",
     swiggy: "https://www.swiggy.com/city/bangalore/mayura-1989-andhra-speciality-restaurant-basaveshwara-nagar-rest10575",
   },
   getZomatoDishUrl: (dishName: string) =>
-    `https://www.zomato.com/bangalore/mayura-1989-bar-kitchen-rajajinagar/order?query=${encodeURIComponent(dishName)}`,
+    `https://www.zomato.com/bangalore/mayura-1989-rajajinagar-bangalore/order?query=${encodeURIComponent(dishName)}`,
   getSwiggyDishUrl: (dishName: string) =>
     `https://www.swiggy.com/city/bangalore/mayura-1989-andhra-speciality-restaurant-basaveshwara-nagar-rest10575?query=${encodeURIComponent(dishName)}`,
   originalMenuImage: "/images/menu-original-1.jpg",
