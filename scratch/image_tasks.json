@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "exotic-veg-salad",
+    "name": "Exotic Veg Salad",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-exotic-veg-salad.jpg",
+    "targetPath": "public/images/dish-exotic-veg-salad.jpg",
+    "source": "public/images/dish-salad-exotic-veg.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "hawaiian-corn-salad",
+    "name": "Hawaiian Corn Salad",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-hawaiian-corn-salad.jpg",
+    "targetPath": "public/images/dish-hawaiian-corn-salad.jpg",
+    "source": "public/images/dish-salad-hawaiian-corn.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "tossed-salad",
+    "name": "Tossed Salad",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-tossed-salad.jpg",
+    "targetPath": "public/images/dish-tossed-salad.jpg",
+    "source": "public/images/dish-salad-tossed.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "green-salad",
+    "name": "Green Salad",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-green-salad.jpg",
+    "targetPath": "public/images/dish-green-salad.jpg",
+    "source": "public/images/dish-salad-green.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "mutton-bones-rasam",
+    "name": "Mutton Bones Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-mutton-bones-rasam.jpg",
+    "targetPath": "public/images/dish-mutton-bones-rasam.jpg",
+    "source": "public/images/dish-rasam-mutton-bones.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "miriyala-kodi-rasam",
+    "name": "Miriyala Kodi Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-miriyala-kodi-rasam.jpg",
+    "targetPath": "public/images/dish-miriyala-kodi-rasam.jpg",
+    "source": "public/images/dish-rasam-miriyala-kodi.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "pudina-kodi-rasam",
+    "name": "Pudina Kodi Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-pudina-kodi-rasam.jpg",
+    "targetPath": "public/images/dish-pudina-kodi-rasam.jpg",
+    "source": "public/images/dish-rasam-pudina-kodi.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "tomato-kothmir-rasam",
+    "name": "Tomato Kothmir Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-tomato-kothmir-rasam.jpg",
+    "targetPath": "public/images/dish-tomato-kothmir-rasam.jpg",
+    "source": "public/images/dish-rasam-tomato-kothmir.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fish-pandumirchi",
+    "name": "Fish Pandumirchi/Pachimirchi/Kothimeera/Karivepaku",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-fish-pandumirchi.jpg",
+    "targetPath": "public/images/dish-fish-pandumirchi.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "prawns-pandumirchi",
+    "name": "Prawns Pandumirchi/Pachimirchi/Kothimeera/Karivepaku",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-prawns-pandumirchi.jpg",
+    "targetPath": "public/images/dish-prawns-pandumirchi.jpg",
+    "source": "public/images/dish-prawns-pandumirchi.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-pandumirchi",
+    "name": "Chicken Pandumirchi/Pachimirchi/Kothimeera/Karivepaku",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-chicken-pandumirchi.jpg",
+    "targetPath": "public/images/dish-chicken-pandumirchi.jpg",
+    "source": "public/images/dish-chicken-pandumirchi.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "paneer-pandumirchi",
+    "name": "Paneer Pandumirchi/Pachimirchi/Kothimeera/Karivepaku",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-paneer-pandumirchi.jpg",
+    "targetPath": "public/images/dish-paneer-pandumirchi.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "babycorn-pandumirchi",
+    "name": "Babycorn Pandumirchi/Pachimirchi/Kothimeera/Karivepaku",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-babycorn-pandumirchi.jpg",
+    "targetPath": "public/images/dish-babycorn-pandumirchi.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "andhra-chicken-roast",
+    "name": "Andhra Chicken Roast",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-andhra-chicken-roast.jpg",
+    "targetPath": "public/images/dish-andhra-chicken-roast.jpg",
+    "source": "public/images/dish-chicken-roast.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "pomfret-ghee-roast",
+    "name": "Pomfret Ghee Roast (Full Fish)",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-pomfret-ghee-roast.jpg",
+    "targetPath": "public/images/dish-pomfret-ghee-roast.jpg",
+    "source": "public/images/dish-pomfret-ghee-roast.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "anjal-fish-tawa-fry",
+    "name": "Anjal Fish Tawa Fry",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-anjal-fish-tawa-fry.jpg",
+    "targetPath": "public/images/dish-anjal-fish-tawa-fry.jpg",
+    "source": "public/images/dish-anjal-fish-tawa-fry.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "squid-ghee-roast",
+    "name": "Squid Ghee Roast",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-squid-ghee-roast.jpg",
+    "targetPath": "public/images/dish-squid-ghee-roast.jpg",
+    "source": "public/images/dish-squid-ghee-roast.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "prawns-sukka",
+    "name": "Prawns Sukka",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-prawns-sukka.jpg",
+    "targetPath": "public/images/dish-prawns-sukka.jpg",
+    "source": "public/images/dish-prawns-sukka.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fish-sukka",
+    "name": "Fish Sukka",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-fish-sukka.jpg",
+    "targetPath": "public/images/dish-fish-sukka.jpg",
+    "source": "public/images/dish-fish-sukka.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "coorg-special-chicken",
+    "name": "Coorg's Special Chicken",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-coorg-special-chicken.jpg",
+    "targetPath": "public/images/dish-coorg-special-chicken.jpg",
+    "source": "public/images/dish-coorg-special-chicken.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-kshatriya",
+    "name": "Chicken Kshatriya",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-chicken-kshatriya.jpg",
+    "targetPath": "public/images/dish-chicken-kshatriya.jpg",
+    "source": "public/images/dish-chicken-kshatriya.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-roast",
+    "name": "Chicken Roast",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-chicken-roast.jpg",
+    "targetPath": "public/images/dish-chicken-roast.jpg",
+    "source": "public/images/dish-chicken-roast.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "guntur-chicken",
+    "name": "Guntur Chicken",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-guntur-chicken.jpg",
+    "targetPath": "public/images/dish-guntur-chicken.jpg",
+    "source": "public/images/dish-guntur-chicken.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "chilly-chicken",
+    "name": "Chilly Chicken",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-chilly-chicken.jpg",
+    "targetPath": "public/images/dish-chilly-chicken.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "chicken-fry",
+    "name": "Chicken Fry",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-chicken-fry.jpg",
+    "targetPath": "public/images/dish-chicken-fry.jpg",
+    "source": "public/images/dish-chicken-fry.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "paneer-sholay-kabab",
+    "name": "Paneer Sholay Kabab",
+    "category": "Mayura Signature Starters",
+    "targetRel": "/images/dish-paneer-sholay-kabab.jpg",
+    "targetPath": "public/images/dish-paneer-sholay-kabab.jpg",
+    "source": "public/images/dish-paneer-sholay-kabab.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "mutton-rasam",
+    "name": "Mutton Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-mutton-rasam.jpg",
+    "targetPath": "public/images/dish-mutton-rasam.jpg",
+    "source": "public/images/dish-rasam-mutton-bones.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "tomato-kothimbir-rasam",
+    "name": "Tomato Kothimbir Rasam",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-tomato-kothimbir-rasam.jpg",
+    "targetPath": "public/images/dish-tomato-kothimbir-rasam.jpg",
+    "source": "public/images/dish-rasam-tomato-kothmir.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "crab-soup",
+    "name": "Crab Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-crab-soup.jpg",
+    "targetPath": "public/images/dish-crab-soup.jpg",
+    "source": "public/images/dish-soup.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "chicken-manchow-soup",
+    "name": "Chicken Manchow Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-chicken-manchow-soup.jpg",
+    "targetPath": "public/images/dish-chicken-manchow-soup.jpg",
+    "source": "public/images/dish-manchow-soup.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-hot-sour-soup",
+    "name": "Chicken Hot Sour Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-chicken-hot-sour-soup.jpg",
+    "targetPath": "public/images/dish-chicken-hot-sour-soup.jpg",
+    "source": "public/images/dish-rasam-mutton-bones.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-sweet-corn-soup",
+    "name": "Chicken Sweet Corn Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-chicken-sweet-corn-soup.jpg",
+    "targetPath": "public/images/dish-chicken-sweet-corn-soup.jpg",
+    "source": "public/images/dish-rasam-mutton-bones.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "veg-lemon-coriander-soup",
+    "name": "Veg Lemon Coriander Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-veg-lemon-coriander-soup.jpg",
+    "targetPath": "public/images/dish-veg-lemon-coriander-soup.jpg",
+    "source": "public/images/dish-soup.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "veg-sweet-corn-soup",
+    "name": "Veg Sweet Corn Soup",
+    "category": "Salads & Rasams",
+    "targetRel": "/images/dish-veg-sweet-corn-soup.jpg",
+    "targetPath": "public/images/dish-veg-sweet-corn-soup.jpg",
+    "source": "public/images/dish-rasam-tomato-kothmir.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "schezwan-corn-spring-roll",
+    "name": "Schezwan Corn Spring Roll",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-schezwan-corn-spring-roll.jpg",
+    "targetPath": "public/images/dish-schezwan-corn-spring-roll.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "veg-spring-roll",
+    "name": "Veg Spring Roll",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-veg-spring-roll.jpg",
+    "targetPath": "public/images/dish-veg-spring-roll.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "golden-fried-baby-corn",
+    "name": "Golden Fried Baby Corn",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-golden-fried-baby-corn.jpg",
+    "targetPath": "public/images/dish-golden-fried-baby-corn.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "paneer-manchurian",
+    "name": "Paneer Manchurian",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-paneer-manchurian.jpg",
+    "targetPath": "public/images/dish-paneer-manchurian.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "mushroom-manchurian",
+    "name": "Mushroom Manchurian",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-mushroom-manchurian.jpg",
+    "targetPath": "public/images/dish-mushroom-manchurian.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "paneer-65",
+    "name": "Paneer 65",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-paneer-65.jpg",
+    "targetPath": "public/images/dish-paneer-65.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "mushroom-pepper-dry",
+    "name": "Mushroom Pepper Dry",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-mushroom-pepper-dry.jpg",
+    "targetPath": "public/images/dish-mushroom-pepper-dry.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "mushroom-65",
+    "name": "Mushroom 65",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-mushroom-65.jpg",
+    "targetPath": "public/images/dish-mushroom-65.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "paneer-pepper-dry",
+    "name": "Paneer Pepper Dry",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-paneer-pepper-dry.jpg",
+    "targetPath": "public/images/dish-paneer-pepper-dry.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "baby-corn-65",
+    "name": "Baby Corn 65",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-baby-corn-65.jpg",
+    "targetPath": "public/images/dish-baby-corn-65.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "baby-corn-manchurian",
+    "name": "Baby Corn Manchurian",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-baby-corn-manchurian.jpg",
+    "targetPath": "public/images/dish-baby-corn-manchurian.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "gobi-chilli",
+    "name": "Gobi Chilli",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-gobi-chilli.jpg",
+    "targetPath": "public/images/dish-gobi-chilli.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "gobi-pepper-dry",
+    "name": "Gobi Pepper Dry",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-gobi-pepper-dry.jpg",
+    "targetPath": "public/images/dish-gobi-pepper-dry.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "gobi-65",
+    "name": "Gobi 65",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-gobi-65.jpg",
+    "targetPath": "public/images/dish-gobi-65.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "chicken-spring-roll",
+    "name": "Chicken Spring Roll",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-spring-roll.jpg",
+    "targetPath": "public/images/dish-chicken-spring-roll.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "fish-finger",
+    "name": "Fish Finger",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-fish-finger.jpg",
+    "targetPath": "public/images/dish-fish-finger.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "fish-65",
+    "name": "Fish 65",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-fish-65.jpg",
+    "targetPath": "public/images/dish-fish-65.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "fish-manchurian",
+    "name": "Fish Manchurian",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-fish-manchurian.jpg",
+    "targetPath": "public/images/dish-fish-manchurian.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "fish-chilly",
+    "name": "Fish Chilly",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-fish-chilly.jpg",
+    "targetPath": "public/images/dish-fish-chilly.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "fish-pepper-dry",
+    "name": "Fish Pepper Dry",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-fish-pepper-dry.jpg",
+    "targetPath": "public/images/dish-fish-pepper-dry.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "golden-fried-prawns",
+    "name": "Golden Fried Prawns",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-golden-fried-prawns.jpg",
+    "targetPath": "public/images/dish-golden-fried-prawns.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "prawns-pepper-dry",
+    "name": "Prawns Pepper Dry",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-prawns-pepper-dry.jpg",
+    "targetPath": "public/images/dish-prawns-pepper-dry.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "prawns-chilli",
+    "name": "Prawns Chilli",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-prawns-chilli.jpg",
+    "targetPath": "public/images/dish-prawns-chilli.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "chicken-65-boneless",
+    "name": "Chicken 65 Boneless",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-65-boneless.jpg",
+    "targetPath": "public/images/dish-chicken-65-boneless.jpg",
+    "source": "public/images/dish-chicken-pandumirchi.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "chicken-manchuria",
+    "name": "Chicken Manchuria",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-manchuria.jpg",
+    "targetPath": "public/images/dish-chicken-manchuria.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "chicken-chilli-bone-less",
+    "name": "Chicken Chilli Bone Less",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-chilli-bone-less.jpg",
+    "targetPath": "public/images/dish-chicken-chilli-bone-less.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-pepper-dry-boneless",
+    "name": "Chicken Pepper Dry Boneless",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-pepper-dry-boneless.jpg",
+    "targetPath": "public/images/dish-chicken-pepper-dry-boneless.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "chicken-drumsticks",
+    "name": "Chicken Drumsticks",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-chicken-drumsticks.jpg",
+    "targetPath": "public/images/dish-chicken-drumsticks.jpg",
+    "source": "public/images/dish-lollipop.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "western-style-chicken-wings",
+    "name": "Western Style Chicken Wings",
+    "category": "Chinese Starters",
+    "targetRel": "/images/dish-western-style-chicken-wings.jpg",
+    "targetPath": "public/images/dish-western-style-chicken-wings.jpg",
+    "source": "public/images/dish-lollipop.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "nellore-chicken-biryani",
+    "name": "Nellore Chicken Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-nellore-chicken-biryani.jpg",
+    "targetPath": "public/images/dish-nellore-chicken-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "nellore-mutton-biryani",
+    "name": "Nellore Mutton Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-nellore-mutton-biryani.jpg",
+    "targetPath": "public/images/dish-nellore-mutton-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "veg-bamboo-biryani",
+    "name": "Veg Bamboo Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-veg-bamboo-biryani.jpg",
+    "targetPath": "public/images/dish-veg-bamboo-biryani.jpg",
+    "source": "public/images/dish-bamboo-biryani.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "chicken-bamboo-biryani",
+    "name": "Chicken Bamboo Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-chicken-bamboo-biryani.jpg",
+    "targetPath": "public/images/dish-chicken-bamboo-biryani.jpg",
+    "source": "public/images/dish-bamboo-biryani.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "mutton-bamboo-biryani",
+    "name": "Mutton Bamboo Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-mutton-bamboo-biryani.jpg",
+    "targetPath": "public/images/dish-mutton-bamboo-biryani.jpg",
+    "source": "public/images/dish-bamboo-biryani.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "veg-pot-biryani",
+    "name": "Veg Pot Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-veg-pot-biryani.jpg",
+    "targetPath": "public/images/dish-veg-pot-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "chicken-pot-biryani",
+    "name": "Chicken Pot Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-chicken-pot-biryani.jpg",
+    "targetPath": "public/images/dish-chicken-pot-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "mutton-pot-biryani",
+    "name": "Mutton Pot Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-mutton-pot-biryani.jpg",
+    "targetPath": "public/images/dish-mutton-pot-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "anjal-fish-fry",
+    "name": "Anjal Fish Fry",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-anjal-fish-fry.jpg",
+    "targetPath": "public/images/dish-anjal-fish-fry.jpg",
+    "source": "public/images/dish-anjal-fish-tawa-fry.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "fish-kabab",
+    "name": "Fish Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-fish-kabab.jpg",
+    "targetPath": "public/images/dish-fish-kabab.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "prawns-pakoda",
+    "name": "Prawns Pakoda",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-prawns-pakoda.jpg",
+    "targetPath": "public/images/dish-prawns-pakoda.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "mutton-keema-balls-6-pieces",
+    "name": "Mutton Keema Balls [6 Pieces]",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-mutton-keema-balls-6-pieces.jpg",
+    "targetPath": "public/images/dish-mutton-keema-balls-6-pieces.jpg",
+    "source": "public/images/dish-chicken-pandumirchi.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "mutton-ghee-roast",
+    "name": "Mutton Ghee Roast",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-mutton-ghee-roast.jpg",
+    "targetPath": "public/images/dish-mutton-ghee-roast.jpg",
+    "source": "public/images/dish-guntur-chicken.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "boneless-mutton-fry",
+    "name": "Boneless Mutton Fry",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-boneless-mutton-fry.jpg",
+    "targetPath": "public/images/dish-boneless-mutton-fry.jpg",
+    "source": "public/images/dish-chicken-fry.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "chicken-kabab",
+    "name": "Chicken Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-chicken-kabab.jpg",
+    "targetPath": "public/images/dish-chicken-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "pudina-chicken-roast",
+    "name": "Pudina Chicken Roast",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-pudina-chicken-roast.jpg",
+    "targetPath": "public/images/dish-pudina-chicken-roast.jpg",
+    "source": "public/images/dish-chicken-roast.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "boneless-chicken-sholay-kabab",
+    "name": "Boneless Chicken Sholay Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-boneless-chicken-sholay-kabab.jpg",
+    "targetPath": "public/images/dish-boneless-chicken-sholay-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "andhra-style-chilli-chicken",
+    "name": "Andhra Style Chilli Chicken",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-andhra-style-chilli-chicken.jpg",
+    "targetPath": "public/images/dish-andhra-style-chilli-chicken.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "paneer-sholey-kabab",
+    "name": "Paneer Sholey Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-paneer-sholey-kabab.jpg",
+    "targetPath": "public/images/dish-paneer-sholey-kabab.jpg",
+    "source": "public/images/dish-paneer-sholay-kabab.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "broccoli-sholey-kabab",
+    "name": "Broccoli Sholey Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-broccoli-sholey-kabab.jpg",
+    "targetPath": "public/images/dish-broccoli-sholey-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "mushroom-sholey-kabab",
+    "name": "Mushroom Sholey Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-mushroom-sholey-kabab.jpg",
+    "targetPath": "public/images/dish-mushroom-sholey-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "gobi-sholey-kabab",
+    "name": "Gobi Sholey Kabab",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-gobi-sholey-kabab.jpg",
+    "targetPath": "public/images/dish-gobi-sholey-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "gobi-pakoda",
+    "name": "Gobi Pakoda",
+    "category": "Andhra Signature Starters",
+    "targetRel": "/images/dish-gobi-pakoda.jpg",
+    "targetPath": "public/images/dish-gobi-pakoda.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "non-veg-platter",
+    "name": "Non Veg Platter",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-non-veg-platter.jpg",
+    "targetPath": "public/images/dish-non-veg-platter.jpg",
+    "source": "public/images/dish-chicken-pandumirchi.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "prawns-tikka",
+    "name": "Prawns Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-prawns-tikka.jpg",
+    "targetPath": "public/images/dish-prawns-tikka.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fish-tikka",
+    "name": "Fish Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-fish-tikka.jpg",
+    "targetPath": "public/images/dish-fish-tikka.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "pachimirchi-chicken-kabab",
+    "name": "Pachimirchi Chicken Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-pachimirchi-chicken-kabab.jpg",
+    "targetPath": "public/images/dish-pachimirchi-chicken-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "pandu-mirchi-chicken-kabab",
+    "name": "Pandu Mirchi Chicken Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-pandu-mirchi-chicken-kabab.jpg",
+    "targetPath": "public/images/dish-pandu-mirchi-chicken-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "gongura-chicken-kabab",
+    "name": "Gongura Chicken Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-gongura-chicken-kabab.jpg",
+    "targetPath": "public/images/dish-gongura-chicken-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "hariyali-chicken-tikka",
+    "name": "Hariyali Chicken Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-hariyali-chicken-tikka.jpg",
+    "targetPath": "public/images/dish-hariyali-chicken-tikka.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "chicken-tikka",
+    "name": "Chicken Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-chicken-tikka.jpg",
+    "targetPath": "public/images/dish-chicken-tikka.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "kalmi-kabab-3-pieces",
+    "name": "Kalmi Kabab [3 Pieces]",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-kalmi-kabab-3-pieces.jpg",
+    "targetPath": "public/images/dish-kalmi-kabab-3-pieces.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "tangdi-kabab-3-pieces",
+    "name": "Tangdi Kabab [3 Pieces]",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-tangdi-kabab-3-pieces.jpg",
+    "targetPath": "public/images/dish-tangdi-kabab-3-pieces.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "banjara-chicken-kabab",
+    "name": "Banjara Chicken Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-banjara-chicken-kabab.jpg",
+    "targetPath": "public/images/dish-banjara-chicken-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "ayurvedic-chicken-wings",
+    "name": "Ayurvedic Chicken Wings",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-ayurvedic-chicken-wings.jpg",
+    "targetPath": "public/images/dish-ayurvedic-chicken-wings.jpg",
+    "source": "public/images/dish-lollipop.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "veg-platter",
+    "name": "Veg Platter",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-veg-platter.jpg",
+    "targetPath": "public/images/dish-veg-platter.jpg",
+    "source": "public/images/dish-chicken-pandumirchi.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "paneer-tikka",
+    "name": "Paneer Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-paneer-tikka.jpg",
+    "targetPath": "public/images/dish-paneer-tikka.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "mushroom-tikka",
+    "name": "Mushroom Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-mushroom-tikka.jpg",
+    "targetPath": "public/images/dish-mushroom-tikka.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "hara-bara-kabab",
+    "name": "Hara Bara Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-hara-bara-kabab.jpg",
+    "targetPath": "public/images/dish-hara-bara-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "brocolli-malai-kabab",
+    "name": "Brocolli Malai Kabab",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-brocolli-malai-kabab.jpg",
+    "targetPath": "public/images/dish-brocolli-malai-kabab.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "gobi-tikka",
+    "name": "Gobi Tikka",
+    "category": "Tandoor Starters",
+    "targetRel": "/images/dish-gobi-tikka.jpg",
+    "targetPath": "public/images/dish-gobi-tikka.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fish-masala",
+    "name": "Fish Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-fish-masala.jpg",
+    "targetPath": "public/images/dish-fish-masala.jpg",
+    "source": "public/images/dish-fish-pandumirchi.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "prawns-masala",
+    "name": "Prawns Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-prawns-masala.jpg",
+    "targetPath": "public/images/dish-prawns-masala.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "mutton-rogan-josh",
+    "name": "Mutton Rogan Josh",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-mutton-rogan-josh.jpg",
+    "targetPath": "public/images/dish-mutton-rogan-josh.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "chicken-patiala",
+    "name": "Chicken Patiala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-chicken-patiala.jpg",
+    "targetPath": "public/images/dish-chicken-patiala.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "chicken-hyderabadi",
+    "name": "Chicken Hyderabadi",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-chicken-hyderabadi.jpg",
+    "targetPath": "public/images/dish-chicken-hyderabadi.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-chicken-tikka-masala.jpg",
+    "targetPath": "public/images/dish-chicken-tikka-masala.jpg",
+    "source": "public/images/dish-tandoori.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "methi-chicken",
+    "name": "Methi Chicken",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-methi-chicken.jpg",
+    "targetPath": "public/images/dish-methi-chicken.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "egg-masala",
+    "name": "Egg Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-egg-masala.jpg",
+    "targetPath": "public/images/dish-egg-masala.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "egg-matar-masala",
+    "name": "Egg Matar Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-egg-matar-masala.jpg",
+    "targetPath": "public/images/dish-egg-matar-masala.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "kaju-masala",
+    "name": "Kaju Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-kaju-masala.jpg",
+    "targetPath": "public/images/dish-kaju-masala.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-palak-paneer.jpg",
+    "targetPath": "public/images/dish-palak-paneer.jpg",
+    "source": "public/images/dish-paneer-pandumirchi.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "mushroom-palak",
+    "name": "Mushroom Palak",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-mushroom-palak.jpg",
+    "targetPath": "public/images/dish-mushroom-palak.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "corn-palak",
+    "name": "Corn Palak",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-corn-palak.jpg",
+    "targetPath": "public/images/dish-corn-palak.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "corn-masala",
+    "name": "Corn Masala",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-corn-masala.jpg",
+    "targetPath": "public/images/dish-corn-masala.jpg",
+    "source": "public/images/dish-babycorn-pandumirchi.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "tomato-dal",
+    "name": "Tomato Dal",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-tomato-dal.jpg",
+    "targetPath": "public/images/dish-tomato-dal.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "dal-tadka",
+    "name": "Dal Tadka",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-dal-tadka.jpg",
+    "targetPath": "public/images/dish-dal-tadka.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "plain-palak",
+    "name": "Plain Palak",
+    "category": "Curries & Gravies",
+    "targetRel": "/images/dish-plain-palak.jpg",
+    "targetPath": "public/images/dish-plain-palak.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "garlic-naan",
+    "name": "Garlic Naan",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-garlic-naan.jpg",
+    "targetPath": "public/images/dish-garlic-naan.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "aloo-paratha",
+    "name": "Aloo Paratha",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-aloo-paratha.jpg",
+    "targetPath": "public/images/dish-aloo-paratha.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "gobi-paratha",
+    "name": "Gobi Paratha",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-gobi-paratha.jpg",
+    "targetPath": "public/images/dish-gobi-paratha.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "butter-naan",
+    "name": "Butter Naan",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-butter-naan.jpg",
+    "targetPath": "public/images/dish-butter-naan.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "plain-naan",
+    "name": "Plain Naan",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-plain-naan.jpg",
+    "targetPath": "public/images/dish-plain-naan.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "butter-roti",
+    "name": "Butter Roti",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-butter-roti.jpg",
+    "targetPath": "public/images/dish-butter-roti.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "tandoori-roti",
+    "name": "Tandoori Roti",
+    "category": "Indian Breads",
+    "targetRel": "/images/dish-tandoori-roti.jpg",
+    "targetPath": "public/images/dish-tandoori-roti.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fish-biryani",
+    "name": "Fish Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-fish-biryani.jpg",
+    "targetPath": "public/images/dish-fish-biryani.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "prawns-biryani",
+    "name": "Prawns Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-prawns-biryani.jpg",
+    "targetPath": "public/images/dish-prawns-biryani.jpg",
+    "source": "public/images/dish-prawn.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "egg-biryani",
+    "name": "Egg Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-egg-biryani.jpg",
+    "targetPath": "public/images/dish-egg-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "veg-biryani",
+    "name": "Veg Biryani",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-veg-biryani.jpg",
+    "targetPath": "public/images/dish-veg-biryani.jpg",
+    "source": "public/images/dish-biryani.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "ghee-rice",
+    "name": "Ghee Rice",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-ghee-rice.jpg",
+    "targetPath": "public/images/dish-ghee-rice.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "palak-rice",
+    "name": "Palak Rice",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-palak-rice.jpg",
+    "targetPath": "public/images/dish-palak-rice.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "dal-khichdi",
+    "name": "Dal Khichdi",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-dal-khichdi.jpg",
+    "targetPath": "public/images/dish-dal-khichdi.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "jeera-rice",
+    "name": "Jeera Rice",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-jeera-rice.jpg",
+    "targetPath": "public/images/dish-jeera-rice.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "curd-rice",
+    "name": "Curd Rice",
+    "category": "Andhra Biryani & Rice",
+    "targetRel": "/images/dish-curd-rice.jpg",
+    "targetPath": "public/images/dish-curd-rice.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "egg-pakoda-3-eggs-12-pieces",
+    "name": "Egg Pakoda [3 Eggs, 12 Pieces]",
+    "category": "Starters",
+    "targetRel": "/images/dish-egg-pakoda-3-eggs-12-pieces.jpg",
+    "targetPath": "public/images/dish-egg-pakoda-3-eggs-12-pieces.jpg",
+    "source": "public/images/dish-chicken-fry.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "cheese-omelette",
+    "name": "Cheese Omelette",
+    "category": "Starters",
+    "targetRel": "/images/dish-cheese-omelette.jpg",
+    "targetPath": "public/images/dish-cheese-omelette.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "mutton-fry-with-2-tandoori-roti",
+    "name": "Mutton Fry with 2 Tandoori Roti",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-mutton-fry-with-2-tandoori-roti.jpg",
+    "targetPath": "public/images/dish-mutton-fry-with-2-tandoori-roti.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "pudina-chicken-roast-with-2-plain-naan",
+    "name": "Pudina Chicken Roast with 2 Plain Naan",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-pudina-chicken-roast-with-2-plain-naan.jpg",
+    "targetPath": "public/images/dish-pudina-chicken-roast-with-2-plain-naan.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "andhra-style-chilly-chicken-with-2-plain-naan",
+    "name": "Andhra Style Chilly Chicken with 2 Plain Naan",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-andhra-style-chilly-chicken-with-2-plain-naan.jpg",
+    "targetPath": "public/images/dish-andhra-style-chilly-chicken-with-2-plain-naan.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "pudina-chicken-3-pieces-with-plain-rice-and-rasam",
+    "name": "Pudina Chicken [3 Pieces] with Plain Rice and Rasam",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-pudina-chicken-3-pieces-with-plain-rice-and-rasam.jpg",
+    "targetPath": "public/images/dish-pudina-chicken-3-pieces-with-plain-rice-and-rasam.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "andhra-style-chilly-chicken-3-pieces-with-plain-rice-and-beetroot-raita",
+    "name": "Andhra Style Chilly Chicken [3 Pieces] with Plain Rice and Beetroot Raita",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-andhra-style-chilly-chicken-3-pieces-with-plain-rice-and-beetroot-raita.jpg",
+    "targetPath": "public/images/dish-andhra-style-chilly-chicken-3-pieces-with-plain-rice-and-beetroot-raita.jpg",
+    "source": "public/images/dish-chilli-chicken.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "dal-fry-300-ml-with-jeera-rice-500-ml",
+    "name": "Dal Fry [300 ml] with Jeera Rice [500 ml]",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-dal-fry-300-ml-with-jeera-rice-500-ml.jpg",
+    "targetPath": "public/images/dish-dal-fry-300-ml-with-jeera-rice-500-ml.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.18,
+      "y": 0.18,
+      "w": 0.64,
+      "h": 0.64,
+      "b": 0.03,
+      "c": 1.06
+    }
+  },
+  {
+    "id": "paneer-butter-masala-300-ml-and-with-ghee-rice-500-ml",
+    "name": "Paneer Butter Masala [300 ml] and with Ghee Rice [500 ml]",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-paneer-butter-masala-300-ml-and-with-ghee-rice-500-ml.jpg",
+    "targetPath": "public/images/dish-paneer-butter-masala-300-ml-and-with-ghee-rice-500-ml.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.02,
+      "y": 0.05,
+      "w": 0.88,
+      "h": 0.85,
+      "b": 0,
+      "c": 1.01
+    }
+  },
+  {
+    "id": "butter-chicken-300-ml-with-ghee-rice-500-ml",
+    "name": "Butter Chicken [300 ml] with Ghee Rice [500 ml]",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-butter-chicken-300-ml-with-ghee-rice-500-ml.jpg",
+    "targetPath": "public/images/dish-butter-chicken-300-ml-with-ghee-rice-500-ml.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.22,
+      "y": 0.14,
+      "w": 0.68,
+      "h": 0.68,
+      "b": -0.02,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "dal-khichdi-500-m-l-with-chicken-sholay-kabab-200-ml",
+    "name": "Dal Khichdi [500 m]l with Chicken Sholay Kabab [200 ml]",
+    "category": "Andhra Combos",
+    "targetRel": "/images/dish-dal-khichdi-500-m-l-with-chicken-sholay-kabab-200-ml.jpg",
+    "targetPath": "public/images/dish-dal-khichdi-500-m-l-with-chicken-sholay-kabab-200-ml.jpg",
+    "source": "public/images/andhra-spread.jpg",
+    "variant": {
+      "x": 0.08,
+      "y": 0.22,
+      "w": 0.7,
+      "h": 0.7,
+      "b": 0.02,
+      "c": 1.03
+    }
+  },
+  {
+    "id": "fresh-alphonso-mango-lassi-200-ml",
+    "name": "Fresh Alphonso Mango Lassi [200 ml]",
+    "category": "Beverages",
+    "targetRel": "/images/dish-fresh-alphonso-mango-lassi-200-ml.jpg",
+    "targetPath": "public/images/dish-fresh-alphonso-mango-lassi-200-ml.jpg",
+    "source": "public/images/gallery-rooftop.jpg",
+    "variant": {
+      "x": 0.15,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "fresh-alphonso-mango-milk-shake-200-ml",
+    "name": "Fresh Alphonso Mango Milk Shake [200 ml]",
+    "category": "Beverages",
+    "targetRel": "/images/dish-fresh-alphonso-mango-milk-shake-200-ml.jpg",
+    "targetPath": "public/images/dish-fresh-alphonso-mango-milk-shake-200-ml.jpg",
+    "source": "public/images/gallery-rooftop.jpg",
+    "variant": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.76,
+      "h": 0.76,
+      "b": 0.01,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "pinky-berry-200-ml",
+    "name": "Pinky Berry [200 ml]",
+    "category": "Beverages",
+    "targetRel": "/images/dish-pinky-berry-200-ml.jpg",
+    "targetPath": "public/images/dish-pinky-berry-200-ml.jpg",
+    "source": "public/images/gallery-rooftop.jpg",
+    "variant": {
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.74,
+      "h": 0.74,
+      "b": 0,
+      "c": 1.02
+    }
+  },
+  {
+    "id": "mango-berry-colada",
+    "name": "Mango Berry Colada",
+    "category": "Beverages",
+    "targetRel": "/images/dish-mango-berry-colada.jpg",
+    "targetPath": "public/images/dish-mango-berry-colada.jpg",
+    "source": "public/images/gallery-rooftop.jpg",
+    "variant": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.75,
+      "h": 0.75,
+      "b": 0.02,
+      "c": 1.04
+    }
+  },
+  {
+    "id": "honey-moon",
+    "name": "Honey Moon",
+    "category": "Beverages",
+    "targetRel": "/images/dish-honey-moon.jpg",
+    "targetPath": "public/images/dish-honey-moon.jpg",
+    "source": "public/images/gallery-rooftop.jpg",
+    "variant": {
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.72,
+      "h": 0.72,
+      "b": -0.01,
+      "c": 1.05
+    }
+  },
+  {
+    "id": "virgin-mojito",
+    "name": "Virgin Mojito",
+    "category": "Beverages",
+    "targetRel": "/images/dish-virgin-mojito.jpg",
+    "targetPath": "public/images/dish-virgin-mojito.jpg",
+    "source": "public/images/hero-rooftop.jpg",
+    "variant": {
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.72,
+      "h": 0.72,
+      "b": 0.01,
+      "c": 1.03
+    }
+  }
+]
