@@ -72,8 +72,8 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="animate-fade-in-up animate-delay-600 flex flex-wrap items-center justify-center gap-4 mt-8">
-          <Link href="#menu" className="btn-gold shadow-lg shadow-gold-500/20">
-            View Menu
+          <Link href="#menu" className="btn-gold shadow-lg shadow-gold-500/20 text-base font-semibold px-8 py-3.5">
+            Explore Our Menu
           </Link>
           <Link href="#reservation" className="btn-outline">
             Reserve a Table
