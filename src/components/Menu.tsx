@@ -103,7 +103,7 @@ export default function MenuSection() {
         </div>
 
         {/* Search Bar */}
-        <div className="max-w-lg mx-auto mb-8 reveal">
+        <div className="max-w-2xl mx-auto mb-8 reveal">
           <div className="relative">
             <Search
               size={18}
@@ -112,7 +112,7 @@ export default function MenuSection() {
             <input
               id="menu-search"
               type="text"
-              placeholder="Search dishes (e.g. Pandumirchi, Rasam, Pomfret)..."
+              placeholder="Search dishes (e.g. Biryani, Naan, Pandumirchi, Rogan Josh, Lassi)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               suppressHydrationWarning
@@ -128,6 +128,52 @@ export default function MenuSection() {
               </button>
             )}
           </div>
+
+          {/* Quick Search Suggestion Pills */}
+          <div className="flex flex-wrap items-center justify-center gap-1.5 mt-3 text-xs">
+            <span className="text-charcoal-400 font-medium mr-1 flex items-center gap-1">
+              <Sparkles size={12} className="text-gold-400" /> Popular:
+            </span>
+            {[
+              "Biryani",
+              "Butter Naan",
+              "Prawns Pandumirchi",
+              "Chilly Chicken",
+              "Kalmi Kabab",
+              "Rogan Josh",
+              "Mango Lassi",
+              "Virgin Mojito"
+            ].map((term) => (
+              <button
+                key={term}
+                onClick={() => {
+                  setSearchQuery(term);
+                  setActiveCategory("All");
+                }}
+                className={`px-2.5 py-1 rounded-full border transition-all text-[11px] ${
+                  searchQuery.toLowerCase() === term.toLowerCase()
+                    ? "bg-gold-500/20 border-gold-500/60 text-gold-300 font-semibold"
+                    : "border-charcoal-700/60 text-charcoal-300 hover:text-gold-400 hover:border-gold-500/40 bg-charcoal-900/50"
+                }`}
+              >
+                {term}
+              </button>
+            ))}
+          </div>
+
+          {searchQuery && (
+            <div className="flex items-center justify-between text-xs text-charcoal-400 mt-2 px-1">
+              <span>
+                Found <strong className="text-gold-400">{filteredMenu.length}</strong> {filteredMenu.length === 1 ? "dish" : "dishes"} for &quot;{searchQuery}&quot;
+              </span>
+              <button
+                onClick={() => setSearchQuery("")}
+                className="text-gold-400 hover:underline"
+              >
+                Clear search
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Category Filter Tabs */}
@@ -165,18 +211,42 @@ export default function MenuSection() {
 
         {/* Dish Cards Grid */}
         {filteredMenu.length === 0 ? (
-          <div className="text-center py-16 glass rounded-2xl max-w-md mx-auto">
-            <UtensilsCrossed size={40} className="text-gold-400 mx-auto mb-3" />
-            <h4 className="font-heading text-lg font-bold text-cream">No dishes found</h4>
-            <p className="text-charcoal-400 text-sm mt-1">
-              No menu items match your search for &quot;{searchQuery}&quot;.
+          <div className="text-center py-14 px-6 glass rounded-2xl max-w-lg mx-auto border border-charcoal-700/60">
+            <UtensilsCrossed size={42} className="text-gold-400 mx-auto mb-3" />
+            <h4 className="font-heading text-lg font-bold text-cream">
+              Looking for &quot;{searchQuery}&quot;?
+            </h4>
+            <p className="text-charcoal-400 text-xs sm:text-sm mt-1 max-w-sm mx-auto">
+              We couldn&apos;t find this exact item in our featured list, but you can check if it&apos;s available for live ordering directly on Zomato or Swiggy:
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-3 mt-5">
+              <a
+                href={siteInfo.getZomatoDishUrl(searchQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#E23744] text-white hover:bg-[#d02835] transition-all text-xs font-semibold shadow-md"
+              >
+                <ZomatoIcon className="w-4 h-4 text-white" />
+                <span>Search &quot;{searchQuery}&quot; on Zomato</span>
+                <ExternalLink size={12} />
+              </a>
+              <a
+                href={siteInfo.getSwiggyDishUrl(searchQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#FC8019] text-white hover:bg-[#e47012] transition-all text-xs font-semibold shadow-md"
+              >
+                <SwiggyIcon className="w-4 h-4 text-white" />
+                <span>Search on Swiggy</span>
+                <ExternalLink size={12} />
+              </a>
+            </div>
             <button
               onClick={() => {
                 setSearchQuery("");
                 setActiveCategory("All");
               }}
-              className="btn-outline text-xs mt-4"
+              className="btn-outline text-xs mt-6"
             >
               Reset Filters
             </button>
