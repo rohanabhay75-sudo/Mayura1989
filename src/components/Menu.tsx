@@ -3,12 +3,20 @@
 import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Search, ShoppingBag, Sparkles, UtensilsCrossed } from "lucide-react";
-import { fullMenu, menuCategories } from "../data/siteData";
+import { Search, ShoppingBag, Sparkles, UtensilsCrossed, ExternalLink } from "lucide-react";
+import { fullMenu, menuCategories, siteInfo, DishType } from "../data/siteData";
+import OrderModal, { ZomatoIcon, SwiggyIcon } from "./OrderModal";
 
 export default function MenuSection() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedDish, setSelectedDish] = useState<DishType | null>(null);
+  const [isOrderModalOpen, setIsOrderModalOpen] = useState(false);
+
+  const handleOrderDish = (dish: DishType) => {
+    setSelectedDish(dish);
+    setIsOrderModalOpen(true);
+  };
 
   // Filtered menu logic
   const filteredMenu = useMemo(() => {
@@ -66,8 +74,32 @@ export default function MenuSection() {
           <div className="gold-divider mx-auto mt-4" />
           <p className="section-subheading mt-4 max-w-2xl mx-auto text-charcoal-300">
             Handcrafted Andhra specialties, traditional bone-broth rasam, and fresh regional
-            starters prepared with authentic spices.
+            starters. Order directly on Zomato or Swiggy for quick doorstep delivery.
           </p>
+
+          {/* Quick Platform Ordering Badges */}
+          <div className="flex flex-wrap items-center justify-center gap-3 mt-6">
+            <a
+              href={siteInfo.delivery.zomato}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#E23744]/15 border border-[#E23744]/30 text-white hover:bg-[#E23744] transition-all text-xs font-semibold shadow-md group"
+            >
+              <ZomatoIcon className="w-4 h-4 text-[#ff616f] group-hover:text-white" />
+              <span>Order on Zomato</span>
+              <ExternalLink size={12} className="opacity-70 group-hover:opacity-100" />
+            </a>
+            <a
+              href={siteInfo.delivery.swiggy}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FC8019]/15 border border-[#FC8019]/30 text-white hover:bg-[#FC8019] transition-all text-xs font-semibold shadow-md group"
+            >
+              <SwiggyIcon className="w-4 h-4 text-[#ffa352] group-hover:text-white" />
+              <span>Order on Swiggy</span>
+              <ExternalLink size={12} className="opacity-70 group-hover:opacity-100" />
+            </a>
+          </div>
         </div>
 
         {/* Search Bar */}
@@ -157,7 +189,7 @@ export default function MenuSection() {
                 className="glass rounded-2xl overflow-hidden card-hover group flex flex-col border border-charcoal-800/80 hover:border-gold-500/40 transition-all duration-300"
               >
                 {/* Image Container with Veg Badge & Signature Pill */}
-                <div className="relative aspect-[4/3] img-zoom bg-charcoal-900">
+                <div className="relative aspect-[4/3] img-zoom bg-charcoal-900 overflow-hidden">
                   <Image
                     src={dish.image}
                     alt={dish.name}
@@ -199,6 +231,17 @@ export default function MenuSection() {
                       {dish.category}
                     </span>
                   </div>
+
+                  {/* Hover Quick-Order Action Overlay */}
+                  <div className="absolute inset-0 bg-charcoal-950/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 z-20 p-4">
+                    <button
+                      onClick={() => handleOrderDish(dish)}
+                      className="btn-gold !py-2.5 !px-5 text-xs font-bold flex items-center gap-2 shadow-2xl scale-95 group-hover:scale-100 transition-transform"
+                    >
+                      <ShoppingBag size={14} />
+                      Order Dish
+                    </button>
+                  </div>
                 </div>
 
                 {/* Content Container */}
@@ -220,16 +263,37 @@ export default function MenuSection() {
                     </p>
                   </div>
 
-                  {/* Card Bottom CTA */}
-                  <div className="mt-4 pt-3 border-t border-charcoal-800/60 flex items-center justify-between">
-                    <span className="text-[11px] text-charcoal-400">Freshly prepared</span>
-                    <Link
-                      href="#reservation"
-                      className="inline-flex items-center gap-1 text-xs text-gold-400 font-semibold hover:text-gold-300 transition-colors group/btn"
+                  {/* Card Bottom CTA with Zomato & Swiggy Links */}
+                  <div className="mt-4 pt-3 border-t border-charcoal-800/60 flex items-center justify-between gap-2">
+                    <button
+                      onClick={() => handleOrderDish(dish)}
+                      className="btn-gold !py-1.5 !px-3.5 text-xs font-bold flex items-center gap-1.5 shadow"
                     >
-                      Reserve Table
-                      <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
-                    </Link>
+                      <ShoppingBag size={13} />
+                      Order Item
+                    </button>
+
+                    {/* Direct 1-Click Platform Links */}
+                    <div className="flex items-center gap-1.5">
+                      <a
+                        href={siteInfo.getZomatoDishUrl(dish.name)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={`Order ${dish.name} on Zomato`}
+                        className="w-8 h-8 rounded-lg bg-[#E23744]/20 border border-[#E23744]/40 hover:bg-[#E23744] text-[#ff616f] hover:text-white transition-all flex items-center justify-center shadow-sm"
+                      >
+                        <ZomatoIcon className="w-4 h-4" />
+                      </a>
+                      <a
+                        href={siteInfo.getSwiggyDishUrl(dish.name)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={`Order ${dish.name} on Swiggy`}
+                        className="w-8 h-8 rounded-lg bg-[#FC8019]/20 border border-[#FC8019]/40 hover:bg-[#FC8019] text-[#ffa352] hover:text-white transition-all flex items-center justify-center shadow-sm"
+                      >
+                        <SwiggyIcon className="w-4 h-4" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -239,7 +303,7 @@ export default function MenuSection() {
 
         {/* Taxes Note */}
         <div className="text-center text-xs text-charcoal-400 mt-12 reveal max-w-xl mx-auto">
-          <span>* Taxes and statutory service charges applicable as per government norms.</span>
+          <span>* Taxes and statutory service charges applicable as per government norms. Available for Dine-in, Takeaway, and Online Delivery via Zomato & Swiggy.</span>
         </div>
 
         {/* Bottom Actions */}
@@ -248,11 +312,33 @@ export default function MenuSection() {
             <ShoppingBag size={16} />
             Reserve a Table
           </Link>
-          <Link href="#order" className="btn-outline flex items-center gap-2 text-sm !py-3.5 !px-8">
-            Order Online
-          </Link>
+          <a
+            href={siteInfo.delivery.zomato}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline flex items-center gap-2 text-sm !py-3.5 !px-6 border-[#E23744]/50 hover:border-[#E23744] text-white"
+          >
+            <ZomatoIcon className="w-4 h-4 text-[#ff616f]" />
+            Order on Zomato
+          </a>
+          <a
+            href={siteInfo.delivery.swiggy}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline flex items-center gap-2 text-sm !py-3.5 !px-6 border-[#FC8019]/50 hover:border-[#FC8019] text-white"
+          >
+            <SwiggyIcon className="w-4 h-4 text-[#ffa352]" />
+            Order on Swiggy
+          </a>
         </div>
       </div>
+
+      {/* Accessible Interactive Order Modal */}
+      <OrderModal
+        dish={selectedDish}
+        isOpen={isOrderModalOpen}
+        onClose={() => setIsOrderModalOpen(false)}
+      />
     </section>
   );
 }

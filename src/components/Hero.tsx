@@ -87,6 +87,29 @@ export default function Hero() {
             Get Directions
           </a>
         </div>
+
+        {/* Quick Delivery Partner Links */}
+        <div className="animate-fade-in-up animate-delay-700 flex flex-wrap items-center justify-center gap-3 mt-6 text-xs text-charcoal-300">
+          <span className="text-charcoal-400">Order Delivery Online:</span>
+          <a
+            href={siteInfo.delivery.zomato}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E23744]/20 hover:bg-[#E23744] text-[#ff616f] hover:text-white border border-[#E23744]/40 transition-all font-semibold"
+          >
+            <span className="w-2 h-2 rounded-full bg-[#E23744] animate-pulse" />
+            Zomato
+          </a>
+          <a
+            href={siteInfo.delivery.swiggy}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#FC8019]/20 hover:bg-[#FC8019] text-[#ffa352] hover:text-white border border-[#FC8019]/40 transition-all font-semibold"
+          >
+            <span className="w-2 h-2 rounded-full bg-[#FC8019] animate-pulse" />
+            Swiggy
+          </a>
+        </div>
       </div>
 
       {/* Bottom Fade */}

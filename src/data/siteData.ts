@@ -35,6 +35,14 @@ export const siteInfo = {
     facebook: "#",
     youtube: "#",
   },
+  delivery: {
+    zomato: "https://www.zomato.com/bangalore/restaurants?q=Mayura+1989+Rajajinagar",
+    swiggy: "https://www.swiggy.com/restaurants?search=Mayura+1989+Rajajinagar",
+  },
+  getZomatoDishUrl: (dishName: string) =>
+    `https://www.zomato.com/bangalore/restaurants?q=Mayura+1989+${encodeURIComponent(dishName)}`,
+  getSwiggyDishUrl: (dishName: string) =>
+    `https://www.swiggy.com/restaurants?search=${encodeURIComponent("Mayura 1989 " + dishName)}`,
   originalMenuImage: "/images/menu-original-1.jpg",
 };
 

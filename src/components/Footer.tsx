@@ -93,19 +93,33 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link
-                  href="#"
-                  className="text-charcoal-400 text-sm hover:text-gold-400 transition-colors"
+                <a
+                  href={siteInfo.delivery.zomato}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-charcoal-400 text-sm hover:text-[#ff616f] transition-colors flex items-center gap-1.5"
                 >
-                  Privacy Policy
-                </Link>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#E23744]" />
+                  Order on Zomato
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteInfo.delivery.swiggy}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-charcoal-400 text-sm hover:text-[#ffa352] transition-colors flex items-center gap-1.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#FC8019]" />
+                  Order on Swiggy
+                </a>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#reservation"
                   className="text-charcoal-400 text-sm hover:text-gold-400 transition-colors"
                 >
-                  Terms
+                  Book a Table
                 </Link>
               </li>
             </ul>
