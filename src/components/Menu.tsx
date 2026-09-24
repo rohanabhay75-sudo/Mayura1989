@@ -276,19 +276,19 @@ export default function MenuSection() {
                     {/* Direct 1-Click Platform Links */}
                     <div className="flex items-center gap-1.5">
                       <a
-                        href={siteInfo.getZomatoDishUrl(dish.name)}
+                        href={dish.zomatoUrl || siteInfo.getZomatoDishUrl(dish.name)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        title={`Order ${dish.name} on Zomato`}
+                        title={`Direct link to ${dish.name} on Zomato`}
                         className="w-8 h-8 rounded-lg bg-[#E23744]/20 border border-[#E23744]/40 hover:bg-[#E23744] text-[#ff616f] hover:text-white transition-all flex items-center justify-center shadow-sm"
                       >
                         <ZomatoIcon className="w-4 h-4" />
                       </a>
                       <a
-                        href={siteInfo.getSwiggyDishUrl(dish.name)}
+                        href={dish.swiggyUrl || siteInfo.getSwiggyDishUrl(dish.name)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        title={`Order ${dish.name} on Swiggy`}
+                        title={`Direct link to ${dish.name} on Swiggy`}
                         className="w-8 h-8 rounded-lg bg-[#FC8019]/20 border border-[#FC8019]/40 hover:bg-[#FC8019] text-[#ffa352] hover:text-white transition-all flex items-center justify-center shadow-sm"
                       >
                         <SwiggyIcon className="w-4 h-4" />
