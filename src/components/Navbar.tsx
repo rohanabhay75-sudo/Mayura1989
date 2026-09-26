@@ -65,6 +65,7 @@ export default function Navbar() {
           <button
             id="mobile-menu-toggle"
             onClick={() => setMobileOpen(!mobileOpen)}
+            suppressHydrationWarning
             className="lg:hidden text-cream p-2 hover:text-gold-400 transition-colors"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >

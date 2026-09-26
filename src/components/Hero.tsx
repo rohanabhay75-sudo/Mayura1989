@@ -8,19 +8,20 @@ import { siteInfo } from "../data/siteData";
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image - new high-res building facade */}
       <Image
-        src="/images/hero-rooftop.jpg"
-        alt="MAYURA 1989 rooftop dining with warm ambient lighting and city skyline"
+        src="/images/mayura-grand-facade-v2.jpg"
+        alt="MAYURA Bar & Kitchen illuminated facade at night"
         fill
         priority
-        className="object-cover"
+        unoptimized
+        className="object-cover object-center scale-100 transition-transform duration-700"
         sizes="100vw"
       />
 
-      {/* Dark Overlay Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/80 via-charcoal-950/70 to-charcoal-950/95" />
-      <div className="absolute inset-0 bg-gradient-to-r from-charcoal-950/60 via-transparent to-charcoal-950/60" />
+      {/* Light subtle cinematic overlay to protect text readability while keeping the building glowing and fully visible */}
+      <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950 via-charcoal-950/40 to-charcoal-950/60" />
+      <div className="absolute inset-0 bg-black/25" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-24">

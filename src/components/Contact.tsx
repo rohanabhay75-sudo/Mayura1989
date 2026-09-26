@@ -3,6 +3,25 @@
 import { MapPin, Phone, Clock, UtensilsCrossed, Navigation } from "lucide-react";
 import { siteInfo } from "../data/siteData";
 
+function InstagramIcon({ size = 16 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+}
+
 export default function Contact() {
   return (
     <section id="contact" className="py-24 sm:py-32 bg-charcoal-900/30">
@@ -81,6 +100,15 @@ export default function Contact() {
           >
             <Navigation size={16} />
             Get Directions
+          </a>
+          <a
+            href={siteInfo.social.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline flex items-center gap-2 text-[#E1306C] border-[#E1306C]/40 hover:border-[#E1306C] hover:bg-[#E1306C]/10"
+          >
+            <InstagramIcon size={16} />
+            Instagram
           </a>
         </div>
       </div>

@@ -101,6 +101,7 @@ export default function Gallery() {
             />
             <button
               onClick={closeLightbox}
+              suppressHydrationWarning
               className="absolute -top-12 right-0 text-cream hover:text-gold-400 transition-colors"
               aria-label="Close lightbox"
             >
@@ -111,6 +112,7 @@ export default function Gallery() {
                 e.stopPropagation();
                 prev();
               }}
+              suppressHydrationWarning
               className="absolute left-2 top-1/2 -translate-y-1/2 glass rounded-full p-2 text-cream hover:text-gold-400 transition-colors"
               aria-label="Previous image"
             >
@@ -121,6 +123,7 @@ export default function Gallery() {
                 e.stopPropagation();
                 next();
               }}
+              suppressHydrationWarning
               className="absolute right-2 top-1/2 -translate-y-1/2 glass rounded-full p-2 text-cream hover:text-gold-400 transition-colors"
               aria-label="Next image"
             >

@@ -64,6 +64,7 @@ export default function SignatureDishes() {
                   <div className="absolute inset-0 bg-charcoal-950/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 z-20">
                     <button
                       onClick={() => handleOrderDish(dish)}
+                      suppressHydrationWarning
                       className="btn-gold !py-2.5 !px-5 text-xs font-bold flex items-center gap-2 shadow-2xl scale-95 group-hover:scale-100 transition-transform"
                     >
                       <ShoppingBag size={14} />
@@ -92,6 +93,7 @@ export default function SignatureDishes() {
               <div className="p-5 pt-0 flex items-center justify-between gap-2 border-t border-charcoal-800/60 mt-2">
                 <button
                   onClick={() => handleOrderDish(dish)}
+                  suppressHydrationWarning
                   className="btn-gold !py-1.5 !px-3.5 text-xs font-bold flex items-center gap-1.5 shadow"
                 >
                   <ShoppingBag size={13} />

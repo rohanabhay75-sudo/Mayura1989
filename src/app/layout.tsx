@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/hero-rooftop.jpg",
+        url: "/images/mayura-grand-facade-v2.jpg",
         width: 1200,
         height: 630,
-        alt: "MAYURA 1989 rooftop restaurant in Rajajinagar, Bengaluru",
+        alt: "MAYURA 1989 Bar & Kitchen grand facade in Rajajinagar, Bengaluru",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "MAYURA 1989 Bar & Kitchen | Rajajinagar, Bengaluru",
     description:
       "Authentic Andhra cuisine, signature biryani & rooftop dining. ★ 4.0/5 on Google.",
-    images: ["/images/hero-rooftop.jpg"],
+    images: ["/images/mayura-grand-facade-v2.jpg"],
   },
   robots: {
     index: true,
@@ -98,7 +98,7 @@ const restaurantSchema = {
   },
   hasMenu: "https://mayura1989.com/#menu",
   acceptsReservations: "True",
-  image: "/images/hero-rooftop.jpg",
+  image: "/images/mayura-grand-facade-v2.jpg",
 };
 
 export default function RootLayout({

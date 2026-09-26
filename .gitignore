@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# temp build & scratch files
+temp_downloads/
+scratch/
+deploy_replacement_images.js
+find_dishes.js
+map_dishes.js
+browse_category.js
+candidates_summary.json
+refined_candidates.json
+test_commons.js
+download_*.js
+search_*.js
+

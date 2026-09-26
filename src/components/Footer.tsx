@@ -144,6 +144,17 @@ export default function Footer() {
                 <MapPin size={14} className="mt-0.5 shrink-0" />
                 {siteInfo.shortAddress}
               </li>
+              <li>
+                <a
+                  href={siteInfo.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-charcoal-400 text-sm hover:text-[#E1306C] transition-colors"
+                >
+                  <InstagramIcon size={14} />
+                  @mayura_1989
+                </a>
+              </li>
             </ul>
           </div>
         </div>

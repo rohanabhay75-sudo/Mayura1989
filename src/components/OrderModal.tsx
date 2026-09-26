@@ -78,6 +78,7 @@ export default function OrderModal({ dish, isOpen, onClose }: OrderModalProps) {
         {/* Close Button */}
         <button
           onClick={onClose}
+          suppressHydrationWarning
           className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-charcoal-950/80 text-charcoal-300 hover:text-cream hover:bg-charcoal-800 transition-all flex items-center justify-center border border-charcoal-700/60 shadow-lg"
           aria-label="Close modal"
         >
@@ -132,6 +133,7 @@ export default function OrderModal({ dish, isOpen, onClose }: OrderModalProps) {
                 {/* Copy Name Pill */}
                 <button
                   onClick={copyDishName}
+                  suppressHydrationWarning
                   className="inline-flex items-center gap-1 text-[11px] text-charcoal-400 hover:text-gold-300 transition-colors bg-charcoal-800/80 hover:bg-charcoal-800 px-2.5 py-1 rounded-lg border border-charcoal-700/60"
                   title="Copy dish name"
                 >

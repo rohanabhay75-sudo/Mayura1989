@@ -60,6 +60,7 @@ body {
 /* ---------- Scrollbar ---------- */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 ::-webkit-scrollbar-track {
   background: var(--color-charcoal-900);
@@ -70,6 +71,17 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-gold-500);
+}
+
+/* ---------- Scrollbar Hide Utility ---------- */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 /* ---------- Glassmorphism Utility ---------- */
